@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "dev.creepysalhack.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MixinMinecraftClient",
+    "MixinClientPlayerEntity",
+    "MixinGameRenderer",
+    "MixinWorldRenderer",
+    "MixinEntity",
+    "MixinLivingEntity",
+    "MixinInGameHud"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

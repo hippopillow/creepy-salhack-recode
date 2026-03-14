@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "creepysalhack",
+  "version": "${version}",
+  "name": "Creepy SalHack Recode",
+  "description": "A modern 1.21.4 anarchy utility client combining Creepy SalHack nostalgia with Phobos-grade systems.",
+  "authors": ["CreepySalHack Dev Team"],
+  "contact": {},
+  "icon": "assets/creepysalhack/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.creepysalhack.CreepySalHack"
+    ]
+  },
+  "mixins": [
+    "creepysalhack.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
